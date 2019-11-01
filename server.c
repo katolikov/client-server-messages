@@ -51,7 +51,7 @@ int main()
 
     }
 
-    else printf("Rename your file: data\n");
+    else printf("Rename your file: haram\n");
     if(msgctl(msqid,IPC_RMID,NULL)==-1){//IPC_RMID - немедленно удалить очередь сообщений
             printf("Deleting error!\n");
             exit(1);
